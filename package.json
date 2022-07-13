@@ -28,3 +28,14 @@
   },
   "browserslist": "> 0.5%, last 2 versions, not dead"
 }
+// Swiper
+{
+  "dependencies": {
+    "parcel-bundler": "^1.6.1",
+    "swiper": "latest"
+  },
+  "name": "Swiper - Pagination dynamic",
+  "tags": [
+    "swiper"
+  ]
+}
