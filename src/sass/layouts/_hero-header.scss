@@ -1,6 +1,4 @@
 .header-hero {
-  padding-top: 8px;
-  padding-bottom: 158px;
   background-color: #ffb8ca;
   position: relative;
   z-index: -3;
@@ -8,6 +6,8 @@
 
 .header-hero__container {
   position: relative;
+  padding-top: 8px;
+  padding-bottom: 158px;
 }
 
 .header {
@@ -71,11 +71,10 @@
 }
 
 .hero-bg__center {
-  display: none;
   position: absolute;
   overflow: visible;
   z-index: -2;
-  top: 75px;
+  top: 83px;
   left: 63%;
   width: 346px;
   height: 344px;
@@ -87,9 +86,9 @@
 
 .hero-bg__center-img {
   position: absolute;
-  top: 50%;
+  top: 5%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
   width: 171px;
   height: 410px;
 }
