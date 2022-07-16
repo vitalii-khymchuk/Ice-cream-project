@@ -1,0 +1,2 @@
+!function(){var e={body:document.body,openMenuBtn:document.querySelector(".products__open-btn"),closeMenuBtn:document.querySelector(".products__close-btn"),menu:document.querySelector(".product")};function n(){e.body.classList.toggle("no-scroll"),e.menu.classList.toggle("not-visible")}console.log(e),e.openMenuBtn.addEventListener("click",n),e.closeMenuBtn.addEventListener("click",n)}();
+//# sourceMappingURL=index.57befcf4.js.map
