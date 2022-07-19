@@ -1,2 +1,0 @@
-!function(){var o={openModalBtn:document.querySelector(".locmodal-open-btn"),closeModalBtn:document.querySelector(".locmodal-close-btn"),modal:document.querySelector(".locmodal")};function e(){document.body.classList.toggle("modal-open"),o.modal.classList.toggle("is-hidden")}o.openModalBtn.addEventListener("click",e),o.closeModalBtn.addEventListener("click",e)}();
-//# sourceMappingURL=index.62bfba1f.js.map
