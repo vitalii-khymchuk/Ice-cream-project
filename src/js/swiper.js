@@ -1,4 +1,7 @@
-var swiper = new Swiper('.swiper-container', {
+import Swiper, { Autoplay } from 'swiper';
+Swiper.use([Autoplay]);
+
+export default new Swiper('.swiper-container', {
   spaceBetween: 35,
   slidesPerView: 1,
   speed: 800,
